@@ -1,6 +1,6 @@
 
 import React from 'react';
-import ClothingForm from '@/components/ClothingForm';
+import RoofingForm from '@/components/RoofingForm';
 
 const Index = () => {
   return (
@@ -10,9 +10,9 @@ const Index = () => {
           <span className="text-xs uppercase tracking-wider text-gray-500">Smart</span>
         </h1>
         <h2 className="text-center text-3xl font-bold tracking-tight text-gray-900 mb-8">
-          Clothing Selection
+          Roofing Project Questionnaire
         </h2>
-        <ClothingForm />
+        <RoofingForm />
       </div>
     </div>
   );
