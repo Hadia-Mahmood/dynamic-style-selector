@@ -18,12 +18,12 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
 const ClothingForm = () => {
-  const [clothingType, setClothingType] = useState<string | undefined>();
-  const [pantColor, setPantColor] = useState<string | undefined>();
-  const [shoeType, setShoeType] = useState<string | undefined>();
+  const [clothingType, setClothingType] = useState();
+  const [pantColor, setPantColor] = useState();
+  const [shoeType, setShoeType] = useState();
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     
     // Generate result message
